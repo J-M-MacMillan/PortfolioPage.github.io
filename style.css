@@ -1,0 +1,223 @@
+body{
+    background-image: url("https://images.duckduckgo.com/iu/?u=http%3A%2F%2Flegacybluetattoo.com%2Fwp-content%2Fuploads%2F2015%2F11%2Fblue-abstract-background-desktop-hd-wallpaper.png&f=1");
+    /*opacity: 1.0; */
+   
+  }
+
+.container{
+    position: relative;    
+    width: 100%;       
+}
+
+#leadPageImage{
+    border-style: solid;
+    border-width: 0px;
+    border-bottom-color: blue;
+    position: relative;
+    left: 15%;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    width: 70%;
+    height: 450px; 
+    /*opacity: 1.0;  */
+    box-sizing: border-box;   
+}
+
+#welcome{
+    border-style: solid;
+    border-width: 0px;
+    border-bottom-color:rgb(248, 242, 225);;
+    position: relative;
+    left: 0%;
+    margin-top: 10px;
+    margin-bottom: 1px;
+    width: 100%;
+    height: auto;   
+    text-align: center;
+    font-size: 35px;
+    color: rgb(248, 242, 225);    
+    padding: 1px;
+}
+
+#welcome2{
+    border-style: solid;
+    border-width: 0px;
+    border-bottom-color: green;
+    position: relative;
+    left: 25%;
+    margin-top: 2px;
+    margin-bottom: 1px;
+    width: 50%;
+    height: auto;   
+    text-align: center;
+    font-size: 1px;
+    color: #D4AF37;    
+}
+
+#welcomeMsg{
+    border-style: solid;
+    border-width: 0px;
+    border-bottom-color: blue;
+    position: relative;
+    left: 25%;
+    margin-top: -300px;
+    width: 34%;
+    height: auto;
+    text-align: left;
+    color :white;
+    font-size: 20px; 
+    font-weight: bolder;
+    box-sizing: border-box;
+
+}  
+
+#free{
+    border-style: solid;
+    border-width: 0px;
+    border-bottom-color: blue;
+    color: orange;
+    font-weight: bolder;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    border-style: solid;
+    border-width: 0px;
+    border-bottom-color: blue;
+    color: orange;
+   /* background-color: DodgerBlue;*/
+    position: relative;
+    left: 12%;
+    margin-top: 220px;
+    width: 75%;
+    height: 20px;
+    text-align: center; 
+    font-size: 30px;
+    font-weight: bolder;    
+  }
+  
+  .flex-container > div {
+  /*  background-color: #f1f1f1;*/
+    width: 250px;
+    margin: auto;
+    margin-top: -10px;
+    text-align: center;
+    color: white;
+    line-height: 75px;
+    font-size: 15px;
+    font-weight: bolder;
+  }
+
+  .btn{
+    /*width: 100px;*/
+    font-size: 40px;
+    color: yellow;
+    font-weight: bolder;
+    text-align: center;
+    position: absolute;
+    left:35%;
+    margin-top: 60px;
+    width: 10%;
+    height: 40px;
+    padding: 2px 2px;
+    background-color: darkorange;    
+ }
+
+  #enterSiteArrow{      
+      border-style: solid;
+      border-width: 0px;
+      border-radius: 20px;
+      /*border-color: yellow;*/ 
+      position: absolute;
+      left: 35%;
+      margin-top:  15px;
+      margin-bottom: 10px;
+      width: 10%;
+      height: 40px;
+      /*background-color: yellow;*/
+  }
+
+  a{
+      color: white;
+  }
+
+  .flex-container1 {
+    display: flex;
+    flex-direction: column;
+   /* background-color: rgb(1, 1, 14);*/
+    position: absolute;
+    /*float: right;*/
+    right: -14%;
+    margin-top: -400px;    
+    width: 20%;    
+    height: 500px;
+    text-align: center; 
+    border-style: solid;
+    border-width: 0px;
+    border-color: black; 
+    padding: 1px 0px 0px 10px;
+  }  
+  
+  .flex-container1 > div {
+    border-style: solid;
+    border-width: 1px;
+    border-color:rgb(17, 17, 9);
+    border-radius: 20px;
+    background-color:rgb(1, 1, 14);
+    opacity: 1.0;
+    width: 12%;
+    height: 6%;
+    /*margin:auto 200;*/ 
+    margin-top: 5px;  
+    text-align: center;
+    line-height: 10px;
+    font-size: 15px;
+  }
+
+  #shareLabel{
+      margin-top: 25px;
+      margin-bottom: 5px;
+      color: rgb(119, 119, 141);
+      background-color: black;
+      border-width: 0px;      
+      text-align: center;
+      padding: 5px 0px 5px;
+      width: 60px;
+      height: 30px;
+      margin-left: -8%;      
+     /* background-image: url("https://images.duckduckgo.com/iu/?u=http%3A%2F%2Flegacybluetattoo.com%2Fwp-content%2Fuploads%2F2015%2F11%2Fblue-abstract-background-desktop-hd-wallpaper.png&f=1");*/
+    }
+
+    #facebook{
+        width: 30px;
+        height:30px;
+        border-radius: 30px;
+    }
+
+    #instagram{
+        width: 30px;
+        height: 30px;
+        border-radius: 30px;        
+    }
+
+    #twitter{
+        width: 30px;
+        height: 30px;
+        border-radius: 30px;        
+    }
+
+    #linkedIn{
+        width: 30px;
+        height: 30px;
+        border-radius: 30px;        
+    }
+
+    #google{
+        width: 30px;
+        height: 30px;
+        border-radius: 30px;        
+    }
+
+
+
